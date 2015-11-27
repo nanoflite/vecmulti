@@ -15,12 +15,14 @@ Upload a program over the development connection
  $> vecmulti load --port /dev/cu.SLAB_USBtoUART --progress test/in/Wormhole.bin
 
 Connecting a serial to USB cable
- 
- [--- top of pcb ---]
-                x - GND
-                x - PC RX
-                x - PC TX
-                x
+
+ ```
+[--- top of pcb ---]
+     x - GND
+     x - PC RX
+     x - PC TX
+     x
+ ```
  
 Install
 -------
