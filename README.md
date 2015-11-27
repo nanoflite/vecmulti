@@ -2,7 +2,7 @@ VecMulti tool
 =============
 
 With this tool you can control your VecMulti cartridge.
-Is has support for building a menu and uploading programs over serial.
+It has support for building a menu and uploading programs over serial.
 
 Build a menu
 ------------
