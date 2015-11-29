@@ -22,11 +22,34 @@ Build a menu
 ------------
 
  $> vecmulti menu source destination
+ 
+```
+ usage: vecmulti menu [-h] source destination
+
+positional arguments:
+  source       Source folder containing games (*.bin files).
+  destination  Destination folder.
+
+optional arguments:
+  -h, --help   show this help message and exit
+```
 
 Upload a program over the development connection
 ------------------------------------------------
 
  $> vecmulti load --port /dev/cu.SLAB_USBtoUART --progress test/in/Wormhole.bin
+
+```
+usage: vecmulti load [-h] [--port PORT] [--progress] rom
+
+positional arguments:
+  rom          ROM file to upload to Vectrex.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --port PORT  Specify connection port.
+  --progress   Show a progress bar.
+```  
 
 Connecting a serial to USB cable
 
