@@ -4,6 +4,20 @@ VecMulti tool
 With this tool you can control your VecMulti cartridge.
 It has support for building a menu and uploading programs over serial.
 
+```
+usage: vecmulti [-h] [--verbose] {load,menu} ...
+
+positional arguments:
+  {load,menu}  command help
+    load       Load a program into the the Vectrex using the VecMulti dev
+               mode.
+    menu       Create a menu to use on the VecMulti cartridge.
+
+optional arguments:
+  -h, --help   show this help message and exit
+  --verbose    Show what is going on.
+```
+
 Build a menu
 ------------
 
