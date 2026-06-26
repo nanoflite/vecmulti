@@ -4,6 +4,36 @@ VecMulti tool
 With this tool you can control your VecMulti cartridge.
 It has support for building a menu and uploading programs over serial.
 
+Requirements
+------------
+
+* Python 3.8 or newer
+* pyserial
+
+Install
+-------
+
+Install the tool and its dependencies into your current Python environment:
+
+```
+python3 -m pip install .
+```
+
+For development, install it in editable mode:
+
+```
+python3 -m pip install -e .
+```
+
+If you only need the runtime dependencies, install them from the requirements file:
+
+```
+python3 -m pip install -r requirements.txt
+```
+
+Usage
+-----
+
 ```
 usage: vecmulti [-h] [--verbose] {load,menu} ...
 
@@ -61,11 +91,6 @@ Connecting a serial to USB cable
      x
  ```
  
-Install
--------
-
-You need to have Python and pyserial installed.
-
 Author
 ------
 

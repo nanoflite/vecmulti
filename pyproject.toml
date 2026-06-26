@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vecmulti"
+version = "0.1.0"
+description = "Command line tools for controlling a VecMulti cartridge"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [
+    {name = "Johan Van den Brande"}
+]
+dependencies = [
+    "pyserial>=3.5"
+]
+
+[project.scripts]
+vecmulti = "vecmulti.cli:main"
+
+[tool.setuptools]
+packages = ["vecmulti"]
